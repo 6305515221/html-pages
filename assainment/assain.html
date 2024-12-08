@@ -1,0 +1,237 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .bgImage {
+            background-image: url("https://t3.ftcdn.net/jpg/06/97/43/12/360_F_697431227_QFJRySZ7rR977TZCp0Bd7MSFF83G0sla.jpg");
+            background-size: cover;
+            height: 100vh;
+            overflow: auto;
+        
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: underline;
+        }
+
+        legend {
+            color: white;
+            border-radius: 0px 20px 0px 20px;
+            border-color: white;
+            border-width: 2px;
+            border-style: solid;
+            padding: 5px;
+        }
+
+        .address {
+            padding: 10px;
+            width: 170px;
+        }
+
+        label {
+            color: white;
+            margin-right: 20px;
+        }
+
+        input {
+            margin-right: 20px;
+        }
+
+        fieldset  {
+            border-style: solid;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+       
+        td {
+            padding: 10px;
+        }
+        table{
+            width: 100%;
+        }
+        input{
+            color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="bgImage">
+        <h1>ONLINE JOB APPLICATION</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                    <tr>
+                        <td><label for="firstName">First Name</label></td>
+                        <td><input type="text" id="firstName" name="firstName"></td>
+                        <td><label for="middleName">Middle Name</label></td>
+                        <td><input type="text" id="middleName" name="middleName"></td>
+                        <td><label for="lastName">Last Name</label></td>
+                        <td><input type="text" id="lastName" name="lastName"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fatherName">Father Name</label></td>
+                        <td><input type="text" id="fatherName" name="fatherName"></td>
+                        <td><label for="motherName">Mother Name</label></td>
+                        <td><input type="text" id="motherName" name="motherName"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="currentAddress">Current Address</label></td>
+                        <td><input type="text" id="currentAddress" name="currentAddress" class="address"></td>
+                        <td><label for="permanentAddress">Permanent Address</label></td>
+                        <td><input type="text" id="permanentAddress" name="permanentAddress" class="address"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="landlineNumber">Landline Number</label></td>
+                        <td><input type="text" id="landlineNumber" name="landlineNumber"></td>
+                        <td><label for="mobileNumber">Mobile Number</label></td>
+                        <td><input type="text" id="mobileNumber" name="mobileNumber"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date of Birth</label></td>
+                        <td><input type="date" id="dob" name="dob"></td>
+                        <td><label for="yearOfPassing">Year Of Passing</label></td>
+                        <td><input type="date" id="yearOfPassing" name="yearOfPassing"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Gender</label></td>
+                        <td><input type="radio" name="gender" id="male" value="male"><label for="male">Male</label></td>
+                        <td><input type="radio" name="gender" id="female" value="female"><label for="female">Female</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Languages Known:</label></td>
+                        <td><input type="checkbox" id="telugu" name="languages" value="telugu"><label for="telugu">Telugu</label></td>
+                        <td><input type="checkbox" id="hindi" name="languages" value="hindi"><label for="hindi">Hindi</label></td>
+                        <td><input type="checkbox" id="english" name="languages" value="english"><label for="english">English</label></td>
+                        <td><input type="checkbox" id="tamil" name="languages" value="tamil"><label for="tamil">Tamil</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Select Hobbies</label></td>
+                        <td><input type="checkbox" id="telugu" name="languages" value="telugu"><label for="telugu">Eating</label></td>
+                        <td><input type="checkbox" id="hindi" name="languages" value="hindi"><label for="hindi">Sleeping</label></td>
+                        <td><input type="checkbox" id="english" name="languages" value="english"><label for="english">Reading</label></td>
+                        <td><input type="checkbox" id="tamil" name="languages" value="tamil"><label for="tamil">Coding</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">About YourSelf</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Nationality</label></td>
+                        <td><select name="" id="">
+                            <option value="">Select</option>
+                            <option value="">Indian</option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Aadhar Card Number</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Education Details</legend>
+                <table>
+                    <tr>
+                        <td><label for="">S.No Qualification</label></td>
+                        <td><label for="">University</label></td>
+                        <td><label for="">Year of passing</label></td>
+                        <td><label for="">Marks</label></td>
+                        
+                    </tr>
+    
+                    <tr>
+                        <td><label for="">1</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">2</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">3</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Work Expreince</legend>
+                <table>
+                    <tr>
+                        <td><label for="">S.No Qualification</label></td>
+                        <td><label for="">University</label></td>
+                        <td><label for="">Year of passing</label></td>
+                        <td><label for="">Marks</label></td>
+                        
+                    </tr>
+    
+                    <tr>
+                        <td><label for="">1</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">2</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">3</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Details</legend>
+                <table >
+                    <tr>
+                        <td><input type="radio" name="radio"><label>Yes</label> <input type="radio" name="radio">no</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Job Type</label></td>
+                    </tr>
+                    
+                    
+                    
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
